@@ -47,7 +47,7 @@ $q = "SELECT ID, FirstName, LastName, Specialization, Password FROM doktor WHERE
     	//start the session, fetch the record and insert the three values in an array
     	session_start();
     	$_SESSION = mysqli_fetch_array ($result, MYSQLI_ASSOC);
-    	echo '<p> haiiiiaaiaiiaiaia</p>';
+    	echo '<p> Welcome Back</p>';
 
     	//Cancel the rest of the script
     	exit();
