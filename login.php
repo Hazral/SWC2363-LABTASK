@@ -87,7 +87,7 @@ value="<?php if (isset($_POST['Password'])) echo $_POST ['Password'];?>" >
 </form>
 
 <p align="center"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Don't have an account?
-<a href="register.php">Sign up</a>
+<a href="registerDoktor.php">Sign up</a>
 
 </p>
 </div>
